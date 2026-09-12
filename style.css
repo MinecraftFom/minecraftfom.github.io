@@ -1,0 +1,56 @@
+/* 这是注释，CSS 当没看见 */        /* 也可以写在行尾 */
+body {
+  background: #0f0f0f;
+  color: #e0e0e0;
+  font-family: "Microsoft YaHei", sans-serif;
+  text-align: center;        /*文本对齐，居中。真好看(✪ω✪)*/
+  padding-top: 15vh;
+}
+
+h1 {
+  font-size: 64px;
+  letter-spacing: 4px;
+  color: #7ef;
+}
+
+p {
+  font-size: 18px;
+  color: #888;
+}
+
+/* 按钮通用样式 */
+a {
+  display: block;             /* 每个按钮独占一行 */
+  width: fit-content;         /* 宽度只包住文字，不撑满整行 */
+  margin: 30px auto 0;        /* 上下30px，左右auto，自动水平居中 */
+  padding: 12px 28px;         /* 按钮内边距 */
+  background: #7ef;           /* 青色背景 */
+  color: #0f0f0f;             /* 黑色文字 */
+  text-decoration: none;      /* 去掉下划线 */
+  border-radius: 6px;         /* 圆角 */
+  font-size: 16px;            /* 字号 */
+  transition: 0.3s;           /* 平滑过渡0.3秒缓慢变化 */
+}
+
+/* 主按钮：Color-IT，大一点 */
+.btn-main {
+  font-size: 18px;
+  padding: 14px 36px;
+}
+
+/* 次按钮：第二页，小一点 */
+.btn-second {
+  font-size: 14px;
+  padding: 10px 22px;
+}
+
+/* 鼠标放到按钮上时的效果 */
+a:hover {
+  background: #4cd;
+  color: #fff;
+  transform: scale(1.1);   /* 放大到1.1倍 */
+}
+
+
+
+
